@@ -1,5 +1,4 @@
 import { FaGithub } from "react-icons/fa6";
-
 // Replace the projects inside the myProjects array with your own projects. Right now the array has sample data. You can add as many projects as you want. Each project should be an object with the following
 // properties:
 // - title: The title of the project
@@ -8,47 +7,50 @@ import { FaGithub } from "react-icons/fa6";
 // You can also add more properties if you want to display more information about your projects.
 const myProjects = [
   {
-    title: 'Project 1',
-    description: 'Description of project 1',
-    repositoryLink: 'Link to the GitHub repository',
+
+    title: 'Maternity Muse',
+    description: 'Team project focused on maternity and motherhood',
+    _repositoryLink: 'https://github.com/Path2Tech/Path2Tech-Capstone-Project.git',
+    get repositoryLink() {
+      return this._repositoryLink;
+    },
+    set repositoryLink(value) {
+      this._repositoryLink = value;
+    },
+    imageURL: "src/assets/maternityimage.jpg",
   },
   {
-    title: 'Project 2',
-    description: 'Description of project 2',
+    title: "Shakera's Portfolio",
+    description: 'Focuses on who I am, my work and what I am learning in the technology space',
     repositoryLink: 'Link to the GitHub repository',
+    imageURL: "src/assets/flowers-5383054_1280.jpeg",
   },
-  {
-    title: 'Project 3',
-    description: 'Description of project 3',
-    repositoryLink: 'Link to the GitHub repository',
-  },
-  {
-    title: 'Project 4',
-    description: 'Description of project 4',
-    repositoryLink: 'Link to the GitHub repository',
-  },
-  {
-    title: 'Project 5',
-    description: 'Description of project 5',
-    repositoryLink: 'Link to the GitHub repository',
-  },
+
 ];
 const Projects = () => {
   return (
     <main className="projects-container">
       {myProjects.map((project) => (
-        <section key={project.title} className="project-item border border-2 rounded-lg">
+        <section key={project.title} className="project-item border-2 rounded-lg">
           <section className="project-image-container">
-            <FaGithub />
+            <img src={project.imageURL} alt={project.title} className="project-image" />
           </section>
-          <h2 className="text-xl font-semibold">{project.title}</h2>
-          <p className="text-lg">{project.description}</p>
-          <p>Check out the link to the project repository <a href={project.repositoryLink} target="_blank">Here</a> </p>
-
+          <section className="project-details">
+          <FaGithub /> here
+            <h2 className="text-xl font-semibold">{project.title}</h2>
+            <p className="text-lg">{project.description}</p>
+            <p>
+              Check out the link to the project repository{''}
+              <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
+                
+              </a>
+              .
+            </p>
+          </section>
         </section>
       ))}
     </main>
-  )
-}
+  );
+};
 
 export default Projects

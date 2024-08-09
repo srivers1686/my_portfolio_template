@@ -24,14 +24,14 @@
       max-width: 700px;
     }
     a {
-      border: solid 1px black;
+      border: solid 3px rgb(17, 16, 17);
       max-width: 200px;
       padding: 5px;
       text-align: center;
     }
     a:hover {
       background-color: black;
-      color: white;
+      color: rgba(4, 4, 4, 0.386);
     }
   }
   .home-hero {
@@ -47,6 +47,6 @@
     }
   }
   .overview {
-    background-color: whitesmoke;
+    background-color: rgb(234, 167, 237);
   }
 }
