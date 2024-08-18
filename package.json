@@ -16,6 +16,7 @@
     "docx": "^8.5.0",
     "file-server": "^2.2.1",
     "framer-motion": "^11.2.13",
+    "netlify-plugin-cloudinary": "^1.17.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.52.1",

@@ -7,7 +7,6 @@ import { FaGithub } from "react-icons/fa6";
 // You can also add more properties if you want to display more information about your projects.
 const myProjects = [
   {
-
     title: 'Maternity Muse',
     description: 'Team project focused on maternity and motherhood',
     repositoryLink: 'https://github.com/Path2Tech/Path2Tech-Capstone-Project.git',
@@ -48,7 +47,7 @@ const Projects = () => {
             <p>
               Check out the link to the project repository 
               <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
-                here
+                 here
               </a>
               .
             </p>
