@@ -10,13 +10,13 @@ const myProjects = [
 
     title: 'Maternity Muse',
     description: 'Team project focused on maternity and motherhood',
-    _repositoryLink: 'https://github.com/Path2Tech/Path2Tech-Capstone-Project.git',
-    get repositoryLink() {
-      return this._repositoryLink;
-    },
-    set repositoryLink(value) {
-      this._repositoryLink = value;
-    },
+    repositoryLink: 'https://github.com/Path2Tech/Path2Tech-Capstone-Project.git',
+    // get repositoryLink() {
+    //   return this._repositoryLink;
+    // },
+    // set repositoryLink(value) {
+    //   this._repositoryLink = value;
+    // },
     imageURL: "src/assets/maternityimage.jpg",
   },
   {
@@ -25,7 +25,13 @@ const myProjects = [
     repositoryLink: 'Link to the GitHub repository',
     imageURL: "src/assets/flowers-5383054_1280.jpeg",
   },
-
+  {
+  title: "Weather-App-Template",
+    description: 'This app was done to give the weather of searched cities',
+    repositoryLink: 'Link to the GitHub repository',
+    imageURL: "src/assets/sunrise.jpg",
+  },
+  
 ];
 const Projects = () => {
   return (
@@ -40,9 +46,9 @@ const Projects = () => {
             <h2 className="text-xl font-semibold">{project.title}</h2>
             <p className="text-lg">{project.description}</p>
             <p>
-              Check out the link to the project repository{''}
+              Check out the link to the project repository 
               <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
-                
+                here
               </a>
               .
             </p>
