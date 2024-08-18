@@ -42,13 +42,13 @@ const Projects = () => {
             <img src={project.imageURL} alt={project.title} className="project-image" />
           </section>
           <section className="project-details">
-          <FaGithub /> here
+          <FaGithub /> 
             <h2 className="text-xl font-semibold">{project.title}</h2>
             <p className="text-lg">{project.description}</p>
             <p>
               Check out the link to the project repository 
               <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
-                
+                here
               </a>
               .
             </p>
