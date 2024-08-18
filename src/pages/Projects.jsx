@@ -22,7 +22,7 @@ const myProjects = [
   {
     title: "Shakera's Portfolio",
     description: 'Focuses on who I am, my work and what I am learning in the technology space',
-    repositoryLink: 'Link to the GitHub repository',
+    repositoryLink: 'https://github.com/srivers1686/my_portfolio_template.git',
     imageURL: "src/assets/flowers-5383054_1280.jpeg",
   },
   {
@@ -48,7 +48,7 @@ const Projects = () => {
             <p>
               Check out the link to the project repository 
               <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
-                here
+                
               </a>
               .
             </p>

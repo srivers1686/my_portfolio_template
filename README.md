@@ -125,3 +125,4 @@ After completing these steps your application will be deploying on Netlify. So e
 ## Live Application
 If you are interested in seeing how this application looks in a production level setting check out the link below:
 [Deployed Application](https://my-portfolio-template.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8a5e6d5c-58a7-462a-af84-d2c60eb40e3a/deploy-status)](https://app.netlify.com/sites/srivers/deploys)
