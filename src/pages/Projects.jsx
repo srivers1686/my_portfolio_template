@@ -16,19 +16,19 @@ const myProjects = [
     // set repositoryLink(value) {
     //   this._repositoryLink = value;
     // },
-    imageURL: "src/assets/maternityimage.jpg",
+    imageURL: 'src/assets/maternityimage.jpg',
   },
   {
     title: "Shakera's Portfolio",
     description: 'Focuses on who I am, my work and what I am learning in the technology space',
     repositoryLink: 'https://github.com/srivers1686/my_portfolio_template.git',
-    imageURL: "src/assets/flowers-5383054_1280.jpeg",
+    imageURL: 'src/assets/purpleflowers.jpeg',
   },
   {
   title: "Weather-App-Template",
     description: 'This app was done to give the weather of searched cities',
     repositoryLink: 'Link to the GitHub repository',
-    imageURL: "src/assets/sunrise.jpg",
+    imageURL: 'src/assets/sunrise.jpg',
   },
   
 ];

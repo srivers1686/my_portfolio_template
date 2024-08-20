@@ -10,30 +10,46 @@ const myProjects = [
     title: 'Maternity Muse',
     description: 'Team project focused on maternity and motherhood',
     repositoryLink: 'https://github.com/Path2Tech/Path2Tech-Capstone-Project.git',
-    imageURL: './assets/profilepicture'
+    imageURL: "/assets/maternityimage.jpg",
   },
   {
     title: 'My portfolio',
     description: 'Focuses on who I am, my work and what I am learning',
     repositoryLink: 'Link to the GitHub repository',
+    imageURL: "/assets/flowers-5383054_1280.jpeg",
   },
+  {
+    title: "Weather-App-Template",
+      description: 'This app was done to give the weather of searched cities',
+      repositoryLink: 'Link to the GitHub repository',
+      imageURL: "/assets/sunrise.jpeg",
+    },
   
 ];
 const Projects = () => {
   return (
     <main className="projects-container">
       {myProjects.map((project) => (
-        <section key={project.title} className="project-item border border-2 rounded-lg">
-          <div className="project-image-container">
+        <section key={project.title} className="project-item border-2 rounded-lg">
+          <section className="project-image-container">
             <img src={project.imageURL} alt={project.title} className="project-image" />
-          </div>
-          <h2 className="text-xl font-semibold">{project.title}</h2>
-          <p className="text-lg">{project.description}</p>
-          <p>Check out the link to the project repository <a href={project.repositoryLink} target="_blank">Here</a> </p>
+          </section>
+          <section className="project-details">
+          <FaGithub /> 
+            <h2 className="text-xl font-semibold">{project.title}</h2>
+            <p className="text-lg">{project.description}</p>
+            <p>
+              Check out the link to the project repository 
+              <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
+                 here
+              </a>
+              .
+            </p>
+          </section>
         </section>
       ))}
     </main>
-  )
-}
+  );
+};
 
 export default Projects

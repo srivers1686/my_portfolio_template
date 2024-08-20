@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import PlaceholderHero from '..//assets/flowers-5383054_1280.jpeg'
+import PlaceholderHero from '..//assets/purpleflowers.jpeg'
 
 const fullName = 'Shakera Rivers';
 const personalQuote = '"Great minds discuss ideas, average minds discuss events, small minds discuss people." -Eleanor Roosevelt';

@@ -84,11 +84,6 @@ To begin styling this project look under `src/styles` there are a few SASS files
 
 There are a lot more steps to accomplish to fully turn this template into your own portfolio, but these were a few steps to help you get started.
 
-## Contributors
-- @javiguerra777
-- @srirachy
-- @kurogisa
-
 ## Deployment
 Use netlify to deploy your application, follow the steps below to deploy this project to Netlify:
 
@@ -120,7 +115,7 @@ During the setup process, you will encounter several prompts:
 - Upon being asked for a build command, the default suggestion will be `npm run build`. You can either process with this by pressing enter or explicitly type `npm run build` before hitting enter
 - Finally, for deployment directory, `dist` will be suggested. You can confirm this choice by pressing enter or input `dist` yourself and then press enter.
 
-After completing these steps your application will be deploying on Netlify. So everytime you make a new push to your GitHub repository it will automatically deploy the site for you.
+After completing these steps your application will be deploying on Netlify. So every time you make a new push to your GitHub repository it will automatically deploy the site for you.
 
 ## Live Application
 If you are interested in seeing how this application looks in a production level setting check out the link below:

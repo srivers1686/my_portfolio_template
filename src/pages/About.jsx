@@ -1,12 +1,11 @@
 import { NavLink } from 'react-router-dom';
 import PlaceholderImage from '../assets/profilepicture.jpeg';
-
 // Replace these variables with your information
 const firstName = 'Shakera Rivers';
 const jobTitle = 'Sales and Service DIstribution Clerk';
 const company = 'the United States Postal Service';
 const mainDuty = 'Handling customer service and support operations';
-const jobLocation = 'Various locations';
+const jobLocation = 'various locations';
 const briefJobDescription = 'Currently working as a Sales and Service Distribution Clerk at the United States Postal Service, I handle customer service and operations support. I am looking to transition into a full stack developer role to leverage my skills in web development. ';
 const careerObjective = 'IT professional with experience in customer service and operations support. Possess knowledge of the web development process, troubleshooting problems and building successful solutions. ';
 const personalLife = 'In my free time, I enjoy spending time in nature , biking, hiking, traveling , and exploring new cultures and countries, I am a lifelong learner, always looking for opportunities to expand my knowledge and skills" ';
