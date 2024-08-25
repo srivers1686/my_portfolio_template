@@ -1,6 +1,7 @@
 import { FaGithub } from "react-icons/fa6";
-import imageURL from '/src/assets/maternityimage.jpg';
-import purpleflowers from '/src/assets/purpleflowers.jpeg';
+import imageURL from '/src/assets/maternityimage.jpg'
+import PlaceholderImage from '/src/assets/purpleflowers.jpeg';
+import project from '/src/assets/sunrise.jpg';
 
 // Replace the projects inside the myProjects array with your own projects. Right now the array has sample data. You can add as many projects as you want. Each project should be an object with the following
 // properties:
