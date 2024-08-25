@@ -1,6 +1,6 @@
-import maternityimage from "../assets/maternityimage.jpg";
-
-
+import maternityimage from "../assets/maternityimage.jpg"; // changed all three so that it could import the correct referenced path finally
+import purpleflowers from "../assets/purpleflowers.jpeg";
+import sunrise from '../assets/sunrise.jpg';
 // Replace the projects inside the myProjects array with your own projects. Right now the array has sample data. You can add as many projects as you want. Each project should be an object with the following
 // properties:
 // - title: The title of the project
@@ -18,19 +18,19 @@ const myProjects = [
     // set repositoryLink(value) {
     //   this._repositoryLink = value;
     // },
-    imageURL: maternityimage,
+    imageURL: maternityimage, //changed this to the name of the image instead of the file path
   },
   {
     title: "Shakera's Portfolio",
     description: 'Focuses on who I am, my work and what I am learning in the technology space',
     repositoryLink: 'https://github.com/srivers1686/my_portfolio_template.git',
-    imageURL: 'src/assets/purpleflowers.jpeg',
+    imageURL: purpleflowers,
   },
   {
   title: "Weather-App-Template",
     description: 'This app was done to give the weather of searched cities',
     repositoryLink: 'Link to the GitHub repository',
-    imageURL: 'src/assets/sunrise.jpg',
+    imageURL: sunrise,
   },
   
 ];
