@@ -6,6 +6,7 @@ import About from "./pages/About"
 import Projects from "./pages/Projects"
 import Contact from "./pages/Contact"
 import NotFound from "./pages/NotFound"
+import  "/src/assets/maternityimage.jpg";
 
 function App() {
   const { pathname } = useLocation()
