@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import PlaceholderImage from '../assets/profilepicture.jpeg';
+
 // Replace these variables with your information
 const firstName = 'Shakera Rivers';
 const jobTitle = 'Sales and Service DIstribution Clerk';

@@ -1,5 +1,4 @@
-import { FaGithub } from "react-icons/fa6";
-import  "/src/assets/maternityimage.jpg";
+import maternityimage from "../assets/maternityimage.jpg";
 
 
 // Replace the projects inside the myProjects array with your own projects. Right now the array has sample data. You can add as many projects as you want. Each project should be an object with the following
@@ -19,7 +18,7 @@ const myProjects = [
     // set repositoryLink(value) {
     //   this._repositoryLink = value;
     // },
-    imageURL: 'src/assets/maternityimage.jpg',
+    imageURL: maternityimage,
   },
   {
     title: "Shakera's Portfolio",
@@ -44,7 +43,6 @@ const Projects = () => {
             <img src={project.imageURL} alt={project.title} className="project-image" />
           </section>
           <section className="project-details">
-          <FaGithub /> 
             <h2 className="text-xl font-semibold">{project.title}</h2>
             <p className="text-lg">{project.description}</p>
             <p>
