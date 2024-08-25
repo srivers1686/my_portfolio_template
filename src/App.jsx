@@ -7,7 +7,8 @@ import Projects from "./pages/Projects"
 import Contact from "./pages/Contact"
 import NotFound from "./pages/NotFound"
 import maternityimage from '../src/assets/maternityimage.jpg'
-
+import purpleflowers from '/src/assets/purpleflowers.jpeg';
+import sunrise from '/src/assets/sunrise.jpg';
 
 function App() {
   const { pathname } = useLocation()
